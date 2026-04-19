@@ -9,6 +9,12 @@ public class Main {
         * --------------------------------------------------------*/
 
         System.out.println("Klucz: 3, 5");
+
+        for (int i = 0; i < 1000; i++) {
+            String wyrazTest = "abcdefghij".repeat(10).toUpperCase();
+            szyfrAfiniczny(wyrazTest, 3, 5);
+        }
+
         int[] dlugosc = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000}; //Długość wyrazu
 
         for (int n : dlugosc) {
