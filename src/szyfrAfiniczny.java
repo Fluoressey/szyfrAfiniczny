@@ -1,4 +1,4 @@
-public class Main {
+public class szyfrAfiniczny {
     public static void main(String[] args) {
 
         /*-----------------------UWAGA---------------------------
